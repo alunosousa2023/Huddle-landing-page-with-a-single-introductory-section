@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    #section_princial {
+    
+        grid-template-rows: 100px 600px 100px;
+    }
+
+    header {
+        display: flex;
+        width: 100vw;
+        margin-left: 0px;
+    
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-areas: 'auto' 'auto';
+        width: 100vw;
+    
+        grid-template-columns: 100%;
+        grid-row: 0px;
+
+    }
+
+    #img_illustration {
+        width: 50%;
+    }
+
+    h1 {
+        padding: 0 50px;
+        margin-top: 0px;
+        font-size: 5vw;
+        text-align: center;
+        color: white;
+    }
+    
+    p {
+        padding: 0 50px;
+        text-align: center;
+        font-size: 3vw;
+    
+        margin-top: 20px;
+    }
+    
+    #botao {
+        margin: auto;
+        margin-top: 50px;
+        width: 220px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.459); 
+    }
+
+    footer {
+        display: flex;
+        width: 100vw;
+    
+        justify-content: center;
+    }
+
+    #figure_icone {
+        margin-right: 0px;
+    }
+}
